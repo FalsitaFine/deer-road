@@ -1,0 +1,74 @@
+{
+  "deer_1": {
+    "cols": 28,
+    "rows": 13,
+    "cellPx": 55,
+    "w": 1540,
+    "h": 715,
+    "kind": "field"
+  },
+  "deer_2": {
+    "cols": 28,
+    "rows": 16,
+    "cellPx": 55,
+    "w": 1540,
+    "h": 880,
+    "kind": "field"
+  },
+  "deer_3": {
+    "cols": 29,
+    "rows": 13,
+    "cellPx": 53,
+    "w": 1537,
+    "h": 689,
+    "kind": "field"
+  },
+  "deer_4": {
+    "cols": 29,
+    "rows": 16,
+    "cellPx": 48,
+    "w": 1392,
+    "h": 768,
+    "kind": "field"
+  },
+  "deer_5": {
+    "cols": 29,
+    "rows": 14,
+    "cellPx": 48,
+    "w": 1392,
+    "h": 672,
+    "kind": "field"
+  },
+  "deer_6": {
+    "cols": 29,
+    "rows": 15,
+    "cellPx": 48,
+    "w": 1392,
+    "h": 720,
+    "kind": "field"
+  },
+  "deer_bm_salt": {
+    "cols": 11,
+    "rows": 7,
+    "cellPx": 64,
+    "w": 704,
+    "h": 448,
+    "kind": "battle"
+  },
+  "deer_bm_reed": {
+    "cols": 13,
+    "rows": 8,
+    "cellPx": 64,
+    "w": 832,
+    "h": 512,
+    "kind": "battle"
+  },
+  "deer_bm_pass": {
+    "cols": 13,
+    "rows": 8,
+    "cellPx": 64,
+    "w": 832,
+    "h": 512,
+    "kind": "battle"
+  }
+}

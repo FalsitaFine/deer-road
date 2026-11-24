@@ -1,0 +1,38 @@
+{
+  "deer_cen": {
+    "kind": "party",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.02,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_wu": {
+    "kind": "party",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.02,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_tong": {
+    "kind": "party",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.02,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_hero": {
+    "kind": "party",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.02,
+    "facing": "left",
+    "anchor": "bottom-center"
+  }
+}

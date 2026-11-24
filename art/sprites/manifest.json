@@ -2,32 +2,89 @@
   "deer_cen": {
     "kind": "party",
     "poses": [
-      "idle"
+      "idle",
+      "attack",
+      "hurt",
+      "down"
     ],
-    "suggestedHeightTiles": 1.02,
+    "suggestedHeightTiles": 1.38,
     "facing": "left",
     "anchor": "bottom-center"
   },
   "deer_wu": {
     "kind": "party",
     "poses": [
-      "idle"
+      "idle",
+      "attack",
+      "hurt",
+      "down"
     ],
-    "suggestedHeightTiles": 1.02,
+    "suggestedHeightTiles": 1.38,
     "facing": "left",
     "anchor": "bottom-center"
   },
   "deer_tong": {
     "kind": "party",
     "poses": [
-      "idle"
+      "idle",
+      "attack",
+      "hurt",
+      "down"
     ],
-    "suggestedHeightTiles": 1.02,
+    "suggestedHeightTiles": 1.38,
     "facing": "left",
     "anchor": "bottom-center"
   },
   "deer_hero": {
     "kind": "party",
+    "poses": [
+      "idle",
+      "attack",
+      "hurt",
+      "down"
+    ],
+    "suggestedHeightTiles": 1.38,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_foe_salt": {
+    "kind": "monster",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.0,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_foe_reed": {
+    "kind": "monster",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 0.9,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_foe_reed_sail": {
+    "kind": "monster",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 1.11,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_foe_pass": {
+    "kind": "monster",
+    "poses": [
+      "idle"
+    ],
+    "suggestedHeightTiles": 0.78,
+    "facing": "left",
+    "anchor": "bottom-center"
+  },
+  "deer_foe_pass_sail": {
+    "kind": "monster",
     "poses": [
       "idle"
     ],

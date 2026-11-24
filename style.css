@@ -955,3 +955,25 @@ html[data-adventure="deer"] .title-head { background:rgba(249,242,222,.88); left
 .create .deer-mode input { width:auto; margin:0; }
 .deer-about a { color:var(--teal); }
 @media(max-height:540px){ .title-screen {overflow:auto;display:flex;gap:8px;justify-content:space-around;align-items:center; padding:10px;} .title-screen .title-head,.title-screen .title-menu{position:relative;top:auto;bottom:auto;right:auto;left:auto;transform:none;} .title-screen .title-menu{max-height:94vh;overflow:auto; flex-shrink:0;}}
+
+/* Keep the craft, the place in the frame, and the combat build distinct. */
+.pd-job { border-left: 2px solid var(--teal); padding: 2px 9px; margin: 8px 0; }
+.pd-job strong { font: 600 15px var(--serif); }
+.pd-job p, .pd-role, .pd-bio { margin: 4px 0; font-size: 13px; line-height: 1.55; }
+.pc-role { display: block; font-size: 10.5px; color: var(--ink-soft); }
+@media (max-width: 760px) {
+  html[data-adventure="deer"] .panel-head:has(.tabs) .tabs { order: 1; flex-basis: 100%; }
+  html[data-adventure="deer"] .panel-head .tab { flex: 1 1 auto; padding: 6px 3px; letter-spacing: 0; }
+}
+.pd-growth { margin-top: 8px; color: var(--ink-soft); font-size: 13px; }
+.pd-growth summary { cursor: pointer; }
+.skill-row.trait-picker { grid-template-columns: 94px minmax(0,1fr); align-items: center; }
+/* Four short, fully visible name tabs instead of an off-screen fourth member. */
+@media (max-width: 760px) {
+  html[data-adventure="deer"] .cols > .member-list { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); }
+  html[data-adventure="deer"] .cols > .member-list .member-btn { display:grid; grid-template-columns:1fr; justify-items:center; gap:2px; text-align:center; }
+  html[data-adventure="deer"] .cols > .member-list img { width:28px; height:28px; }
+  html[data-adventure="deer"] .cols > .member-list .member-btn div { max-width:100%; overflow-wrap:anywhere; }
+  html[data-adventure="deer"] .cols > .member-list .member-btn small { font-size:10px; }
+  .party-detail .uc-row p, .party-detail .uc-meta { color:var(--ink-soft);font-size:12px; }
+}
